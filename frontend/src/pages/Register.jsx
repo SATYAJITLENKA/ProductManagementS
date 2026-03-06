@@ -82,13 +82,13 @@ function Register() {
 
           <form onSubmit={handleSubmit} className="space-y-4">
 
-            {/* Name */}
+           
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
               <input
                 type="text"
                 name="name"
-                placeholder="John Doe"
+                placeholder="Your name"
                 value={formData.name}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
@@ -96,7 +96,7 @@ function Register() {
               />
             </div>
 
-            {/* Email */}
+       
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
               <input
@@ -110,7 +110,7 @@ function Register() {
               />
             </div>
 
-            {/* Password */}
+            
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Password</label>
               <input
@@ -124,7 +124,7 @@ function Register() {
               />
             </div>
 
-            {/* Confirm Password */}
+           
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Confirm Password</label>
               <input
@@ -138,7 +138,7 @@ function Register() {
               />
             </div>
 
-            {/* Button */}
+            
             <button
               type="submit"
               disabled={loading}
@@ -157,7 +157,7 @@ function Register() {
 
           </form>
 
-          {/* Login Link */}
+          
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600">
               Already have an account?{" "}
